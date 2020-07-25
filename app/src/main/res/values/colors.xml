@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#6200EE</color>
+    <color name="colorPrimaryDark">#3700B3</color>
+    <color name="colorAccent">#03DAC5</color>
+
+    <color name="colorBackground">#fff</color>
+    <color name="colorTextInputBackground">#F7F7F7</color>
+    <color name="md_black_1000">#000000</color>
+    <color name="md_cyan_A700">#00B8D4</color>
+</resources>

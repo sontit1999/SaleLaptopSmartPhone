@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="#99d5f1"
+    android:orientation="vertical"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.LienHeActivity">
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbarlienhe"
+        android:background="#44b6ca"
+        app:titleTextColor="#fff"
+        app:title="Liên Hệ"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize">
+    </androidx.appcompat.widget.Toolbar>
+    <LinearLayout
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:background="@drawable/border"
+        android:layout_marginTop="50dp"
+        android:layout_width="match_parent"
+        android:layout_height="70dp">
+        <TextView
+            android:layout_marginLeft="5dp"
+            android:drawableLeft="@drawable/people"
+            android:textColor="#050505"
+            android:textStyle="bold"
+            android:textSize="22sp"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:text="Admin: Lê Đăng Trường \nĐặng Quốc Thịnh"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:background="@drawable/border"
+        android:layout_marginTop="80dp"
+        android:layout_width="match_parent"
+        android:layout_height="70dp">
+        <Button
+            android:background="#f9f9f9"
+            android:id="@+id/buttoncall"
+            android:layout_marginLeft="5dp"
+            android:drawableLeft="@drawable/cellphone"
+            android:textColor="#050505"
+            android:textStyle="bold"
+            android:textSize="22sp"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:text="SĐT : 19001010"
+            android:layout_margin="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:background="@drawable/border"
+        android:layout_marginTop="80dp"
+        android:layout_width="match_parent"
+        android:layout_height="70dp">
+        <Button
+            android:background="#ffffff"
+            android:layout_marginLeft="5dp"
+            android:drawableLeft="@drawable/message"
+            android:textColor="#050505"
+            android:textStyle="bold"
+            android:id="@+id/buttonemail"
+            android:textAllCaps="false"
+            android:textSize="22sp"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:text="Email: nhom15@gmail.com"
+            android:layout_width="match_parent"
+            android:layout_marginRight="10dp"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:background="@drawable/border"
+        android:layout_marginTop="50dp"
+        android:layout_width="match_parent"
+        android:layout_height="70dp">
+        <TextView
+            android:layout_marginLeft="5dp"
+            android:drawableLeft="@drawable/adress"
+            android:textColor="#050505"
+            android:textStyle="bold"
+            android:textSize="22sp"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:text="Địa chỉ: 22 Âu cơ, quận Tân Bình, TP.HCM"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+
+</LinearLayout>

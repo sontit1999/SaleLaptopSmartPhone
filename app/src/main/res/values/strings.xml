@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">AppBanHang</string>
+    <string name="title_activity_thong_tin">Map</string>
+    <string name="app_name1">Login Template</string>
+    <string name="hint_username">Email Hoặc Số Điện Thoại</string>
+    <string name="hint_password">Mật Khẩu</string>
+    <string name="button_sign_in">Đăng Nhập</string>
+    <string name="button_sign_up">Đăng Ký</string>
+    <string name="button_send">Send</string>
+    <string name="text_forgot_password">Forgot password?</string>
+    <string name="text_signin_message">Xin chào, đăng nhập vào tài khoản của bạn</string>
+    <string name="text_signin_social_media">Or Sign in using social media</string>
+    <string name="text_signup_social_media">Or Sign up using social media</string>
+    <string name="text_signin_signup">Bạn không có tài khoản? <b>Đăng Ký</b></string>
+    <string name="text_signup_terms">By signing up, you agree to our <b>terms and conditions</b></string>
+    <string name="text_signup_message">Hello, let\'s set up your account</string>
+
+    <string name="text_forgot_password_title">Forgot password? No worries</string>
+    <string name="text_forgot_password_message">We will send you a link to reset your password</string>
+
+    <string name="hint_email">Email</string>
+    <string name="hint_phone">Điện Thoại</string>
+    <string name="hint_confirm_password">Confirm Password</string>
+</resources>
